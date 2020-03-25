@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+  application:
+    name: spring-boot-cloud-netflix-eureka-discovery-server
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost-eureka
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
