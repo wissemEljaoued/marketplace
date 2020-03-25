@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+  application:
+    name: spring-boot-cloud-netflix-zuul-gateway-proxy-facade-server
