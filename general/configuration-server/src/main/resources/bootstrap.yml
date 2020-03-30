@@ -7,6 +7,6 @@ spring:
       server:
         git:
           uri:
-            ${HOME}/spring-boot-cloud-local-config-files
+            ${HOME}/IntelliJIDEAProjects/spring-boot-cloud-local-config-files
   application:
     name: spring-boot-cloud-config-server
